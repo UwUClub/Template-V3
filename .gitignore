@@ -1,3 +1,10 @@
+*.idx
+*.o
+*.check_cache
+*.gcno
+*.gcda
+*.bin
+
 # Build directories and binary files
 build/
 out/

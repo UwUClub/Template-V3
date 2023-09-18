@@ -26,7 +26,6 @@ endif ()
 
 add_executable(tests
         tests.cpp
-        ../src/factorial.cpp
         )
 target_link_libraries(
   tests

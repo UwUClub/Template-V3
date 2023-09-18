@@ -4,7 +4,8 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -O")
 
 add_executable(myproject1
         main.cpp
-        factorial.cpp
+        entity.cpp
+        sparse_array.hpp
         )
 
 target_link_libraries(myproject1
